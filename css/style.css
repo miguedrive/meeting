@@ -19,7 +19,12 @@ html {
 .pepito{
   background-color: #121212;
 }
-
+div.col-md-2 {
+}
+div.col-md-2 a  p {
+  text-align: center;
+  font-size: 13px;
+}
 .nav .open > a {
   background-color: transparent;
 }
