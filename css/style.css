@@ -1,10 +1,11 @@
 @import "https://designmodo.github.io/Flat-UI/dist/css/flat-ui.min.css";
-@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css";
+/*@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css";*/
 @import "https://daneden.github.io/animate.css/animate.min.css";
 /*-------------------------------*/
 /*           VARIABLES           */
 /*-------------------------------*/
 body {
+  
   position: relative;
   overflow-x: hidden;
 
@@ -12,19 +13,38 @@ body {
 body,
 html {
   height: 100%;
-  
+
 
 }
 
-.pepito{
-  background-color: #121212;
+
+.todo {
+    padding: 1em;
+    width: auto;
+    height: auto;
+    opacity: 0.9;
+    background-image: url('../img/meeting.png');
+    background-repeat: no-repeat;
+    clear: left;
+    text-align: center;
+
 }
+
 div.col-md-2 {
 }
 div.col-md-2 a  p {
   text-align: center;
   font-size: 13px;
 }
+
+.tvfonts{
+  color: #37474F;
+}
+
+.fondo{
+  opacity: 1;
+}
+
 .nav .open > a {
   background-color: transparent;
 }
@@ -43,6 +63,17 @@ div.col-md-2 a  p {
   -webkit-transition: all 0.5s ease;
   padding-left: 0;
   transition: all 0.5s ease;
+  
+  background-image: url('../img/meeting2.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+
+
+
+
 
 
 }
