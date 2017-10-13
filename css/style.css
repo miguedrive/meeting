@@ -30,6 +30,10 @@ html {
 
 }
 
+
+
+
+
 div.col-md-2 {
 }
 div.col-md-2 a  p {
@@ -38,7 +42,7 @@ div.col-md-2 a  p {
 }
 
 .alinear{
-  align-content: center;
+  margin: auto;
 }
 
 
@@ -337,7 +341,7 @@ body h2,
 body h3,
 body h4 {
   color: rgba(255, 255, 255, 0.9);
-  text-shadow: 2px 2px 4px #000000;
+  /*text-shadow: 2px 2px 4px #bdc3c7;*/
 }
 body p,
 body blockquote {
